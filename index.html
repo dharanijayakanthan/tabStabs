@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Table</title>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="css/main.css"> -->
+	<link rel="stylesheet" href="css/price.css">
+</head>
+
+<body>
+
+	<div class="items">
+		<div class="item">
+			<div class="price">
+				99$
+			</div>
+			<div class="program">
+				Zumba dance
+			</div>
+			<div class="duration">
+				60Hrs
+			</div>
+			<div class="btn"><input type="button" value="BUY"></div>
+		</div>
+		<div class="item">
+			<div class="price">
+				135$
+			</div>
+			<div class="program">
+				Yoga
+			</div>
+			<div class="duration">
+				10Hrs
+			</div>
+			<div class="btn"><input type="button" value="BUY"></div>
+		</div>
+		<div class="item">
+			<div class="price">
+				29$
+			</div>
+			<div class="program">
+				Cardio
+			</div>
+			<div class="duration">
+				60Hrs
+			</div>
+			<div class="btn"><input type="button" value="BUY"></div>
+		</div>
+		<div class="item">
+			<div class="price">
+				35$
+			</div>
+			<div class="program">
+				Zumba dance
+			</div>
+			<div class="duration">
+				60Hrs
+			</div>
+			<div class="btn"><input type="button" value="BUY"></div>
+		</div>
+		<div class="item">
+			<div class="price">
+				35$
+			</div>
+			<div class="program">
+				Zumba dance
+			</div>
+			<div class="duration">
+				60Hrs
+			</div>
+			<div class="btn"><input type="button" value="BUY"></div>
+		</div>
+		<div class="item">
+			<div class="price">
+				35$
+			</div>
+			<div class="program">
+				Zumba dance
+			</div>
+			<div class="duration">
+				60Hrs
+			</div>
+			<div class="btn"><input type="button" value="BUY"></div>
+		</div>
+		<div class="item">
+			<div class="price">
+				35$
+			</div>
+			<div class="program">
+				Zumba dance
+			</div>
+			<div class="duration">
+				60Hrs
+			</div>
+			<div class="btn"><input type="button" value="BUY"></div>
+		</div>
+	</div>
+	<div class="btnsPrice">
+		<a href="priceForm.html">
+			<input type="button" value="Add" id="addPrice"></a>
+		<input type="button" value="reset" id="reset" data-val="priceFormArrayKey" onclick="removeLocal('priceFormArrayKey');">
+	</div>
+	<div class="members">
+		<div class="p-limiter">
+			<div class="p-container-table100">
+				<div class="p-wrap-table100">
+					<div class="p-table">
+						<div class="p-row header">
+							<div class="p-cell">
+								Full Name
+							</div>
+							<div class="p-cell">
+								Duration </div>
+							<div class="p-cell">
+								Membership
+							</div>
+						</div>
+						<div class="p-row">
+							<div class="p-cell" data-title="Full Name">
+								Vincent Williamson
+							</div>
+
+							<div class="p-cell" data-title="duration">
+								iOS Developer
+							</div>
+							<div class="p-cell" data-title="membership">
+								Premium
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btnsMember">
+					<a href="membershipForm.html">
+						<input type="button" value="Add" id="addUsers"></a>
+					<input type="button" value="Reset" id="reset" data-val="membershipFormArrayKey" onclick="removeLocal('membershipFormArrayKey');">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table">
+
+					<div class="row header">
+						<div class="cell">
+							Full Name
+						</div>
+						<div class="cell">
+							Duration </div>
+						<div class="cell">
+							Location
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="cell" data-title="Full Name">
+							Vincent Williamson
+						</div>
+
+						<div class="cell" data-title="duration">
+							30hrs </div>
+						<div class="cell" data-title="Location">
+							Washington
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="btnsMember">
+				<a href="form.html">
+					<input type="button" value="Add" id="addUsers"></a>
+				<input type="button" value="Reset" data-val="formArrayKey" id="reset" onclick="removeLocal('formArrayKey');">
+			</div>
+		</div>
+
+	</div>
+	<script src="js/price.js"></script>
+	<script src="js/profile.js"></script>
+	<script src="js/reset.js"></script>
+	<script src="js/member.js"></script>
+</body>
+
+</html>
